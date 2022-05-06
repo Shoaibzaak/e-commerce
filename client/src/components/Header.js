@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../Redux/Actions/userActions";
-import video from './videos/video.mp4'
+
 
 const Header = () => {
   const [keyword, setKeyword] = useState();
@@ -205,12 +205,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div>
-      <video  style={{height:'5%',width:'100%',marginTop:''}}>
-   <source   src={video}/>
    
-      </video>
-      </div>
 
 
      
